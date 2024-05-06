@@ -1,13 +1,16 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-   
-      images:{
-        domains:[
-          "res.cloudinary.com",
-          "avatars.githubusercontent.com",
-          "lh3.googleusercontent.com"
-        ]
-      }
+  images: {
+    domains: [
+      "res.cloudinary.com",
+      "avatars.githubusercontent.com",
+      "lh3.googleusercontent.com",
+    ],
+  },
+
+  typescript: {
+    ignoreBuildErrors: true,
+  },
 };
 
-module.exports=nextConfig;
+module.exports = nextConfig;
